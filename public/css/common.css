@@ -1,0 +1,471 @@
+.warrior_panel .add_warriors_panel .left_part{
+    position: absolute; left: 5vw; top: 10vh;
+    width: 45vw;
+    height: 80vh;
+}
+.warrior_panel .add_warriors_panel .left_part ul{
+    position: absolute; left: 0; top: 0;
+    overflow-x:hidden ;overflow-y: scroll;
+    width: 45vw;
+    height: 80vh; 
+}
+.warrior_panel .add_warriors_panel .left_part ul li{
+    position: relative;
+    float: left;
+    width: 6vw;
+    height: 8.8vw;
+    margin: 1.2vw 0 0 1.2vw;
+}
+.warrior_panel .add_warriors_panel .left_part ul li .w_img{
+    width: 100%;
+    height: 100%;
+    border-radius: .5vw;
+}
+.warrior_panel .add_warriors_panel .left_part ul li .camp{
+    width: 2vw;
+    height: 2vw;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: .5vw 0 .5vw 0;
+    position: absolute; left: 0; top: 0;
+}
+.warrior_panel .add_warriors_panel .left_part ul li .camp img{
+    width: 100%;
+    height: 100%;
+}
+.warrior_panel .add_warriors_panel .right_part{
+    position: absolute; left: 55vw; top: 10vh;
+    width: 40vw;
+    height: 80vh;
+    /* background: white; */
+}
+.warrior_panel .add_warriors_panel .right_part ul{
+    position: absolute; top: 10vh; left: 0;
+    width: 40vw;
+    height: 16vw;
+}
+.warrior_panel .add_warriors_panel .right_part ul li{
+    float: left;
+    width: 7vw;
+    height: 7vw;
+    margin: 0.625vw 0 0 0.625vw;
+    overflow: hidden;
+    background: #000;
+    text-align: center;
+    line-height: 7vw;
+    color: white;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+.warrior_panel .add_warriors_panel .right_part ul li img{
+    width: 100%;
+    height: 150%;
+}
+.warrior_panel .add_warriors_panel .right_part .right_part_li{
+    animation: toBig .2s 1;
+    transition: all .15s;
+}
+.warrior_panel .add_warriors_panel .right_part .confirm_btn{
+    position: absolute; left: 50%; top: 10vh;
+    margin: 18vw 0 0 -6vw;
+    width: 12vw;
+    height: 12vw;
+}
+.warrior_panel .add_warriors_panel .right_part .confirm_btn:after{
+    content: '添加';
+    color: rgb(255, 230, 0);
+    position: absolute; left: 50%; top: 4vw;
+    width: 10vw;
+    height: 2vw;
+    line-height: 2vw;
+    font-weight: bolder;
+    font-size: 2vw;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    margin: 0 0 0 -5vw;
+}
+.warrior_panel .add_warriors_panel .right_part .confirm_btn img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.warrior_panel .single_warrior_panel{
+    position: absolute; left: 0; top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.733);
+}
+.warrior_panel .single_warrior_panel .card_container{
+    position: absolute; left: 15vw; top: 50%;
+    width: 70vw;
+    height: 30vw;
+    margin: -15vw 0 0 0;
+    background: rgb(48, 48, 48);
+}
+.warrior_panel .single_warrior_panel .card_container .card{
+    position: absolute; left: 0; top: 0;
+    height: 30vw;
+    width: 21vw;
+    border: .1vw solid rgb(184, 0, 221);
+    box-sizing: border-box;
+}
+.warrior_panel .single_warrior_panel .card_container .card img{
+    position: absolute; top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+.warrior_panel .single_warrior_panel .card_container .star_panel{
+    position: absolute; left: 25vw; top: 2vw;
+    width: 40vw;
+    height: 3vw;
+    padding: 0 0 .5vw 0;
+    border-bottom: .1vw solid rgb(121, 121, 121);
+}
+.warrior_panel .single_warrior_panel .card_container .star_panel ol{
+    position: absolute; left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 3vw;
+}
+.warrior_panel .single_warrior_panel .card_container .star_panel ol .t_title{
+    float: left;
+    width: 10vw;
+    height: 3vw;
+    color: rgb(119, 0, 0);
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+.warrior_panel .single_warrior_panel .card_container .star_panel ol li{
+    position: relative;
+    float: left;
+    width: 2vw;
+    height: 2vw;
+    margin: .5vw 0 0 .5vw;
+    border: none;
+}
+.warrior_panel .single_warrior_panel .card_container .star_panel ol li img{
+    width: 100%;
+    height: 100%;
+    position: absolute; left: 0; right: 0;
+}
+
+.warrior_panel .single_warrior_panel .card_container .arms_panel{
+    position: absolute; left: 25vw; top: 6.5vw;
+    width: 40vw;
+    height: 4vw;
+    padding: 0 0 .5vw 0;
+    border-bottom: .1vw solid rgb(121, 121, 121);
+}
+.warrior_panel .single_warrior_panel .card_container .arms_panel .title{
+    float: left;
+    width: 10vw;
+    height: 4vw;
+    color: rgb(119, 0, 0);
+    font-size: 1.5vw;
+    font-weight: bold;
+    line-height: 4vw;
+    text-align: center;
+}
+.warrior_panel .single_warrior_panel .card_container .arms_panel .arm_img .arm{
+    float: left;
+    width: 4vw;
+    height: 4vw;
+}
+.warrior_panel .single_warrior_panel .card_container .arms_panel .arm_img .arm img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.single_warrior_panel .card_container .arms_container{
+    position: absolute; top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: all .2s;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .close_btn{
+    position: absolute; right: 3vw; bottom: 3vw;
+    width: 8vw;
+    height: 4vw;
+    box-sizing: border-box;
+    border-radius: .5vw;
+    text-align: center;
+    line-height: 3.2vw;
+    border: .3vw solid rgb(107, 107, 107);
+    color: white;
+    font-size: 1vw;
+    background: rgb(58, 0, 0);
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .close_btn.active{
+    animation: click .2s linear 1;
+}
+
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel{
+    position: absolute; bottom: 0; left: 0;
+    width: 100%;
+    height: 12vw;
+    
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .arm1,
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .arm2{
+    position: absolute; bottom: 3vw; left: 6vw;
+    width: 5vw;
+    height: 5vw;
+    box-sizing: border-box;
+    border-radius: .3vw;
+    border: .5vw solid rgb(87, 0, 0);
+    background: #000;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .arm2{
+    left: 13vw;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .arm1 img,
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .arm2 img{
+    width: 100%;
+    height: 100%;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .up_btn{
+    position: absolute; right: 14vw; bottom: 3vw;
+    width: 10vw;
+    height: 4vw;
+    box-sizing: border-box;
+    border-radius: .5vw;
+    text-align: center;
+    line-height: 3.2vw;
+    border: .3vw solid rgb(107, 107, 107);
+    color: white;
+    font-size: 1vw;
+    background: rgb(58, 0, 0);
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .up_btn.active{
+    animation: click .2s linear 1;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .arm1.active,
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .arm2.active{
+    animation: click .2s linear 1;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .material_box1,
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .material_box2{
+    position: absolute; 
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1w;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0);
+    line-height: 9.4vw;
+    text-align: center;
+    color: gray;
+    border: .3vw solid gray;
+    left: 23vw;
+    top: 1vw;
+    overflow: hidden;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .material_box2{
+    left: 34.5vw;
+}
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .material_box1 img,
+.single_warrior_panel .card_container .arms_container .exchange_arms_panel .material_box2 img{
+    position: absolute; left: 0; top: 0;
+    width: 100%;
+    height: 13.7vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool{
+    position: absolute; left: 0; top: 12vw;
+    width: 100%;
+    height: 17vw;
+    padding: 1vw 0 0 0;
+    background: rgba(0, 0, 0, 0.616);
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul{
+    position: absolute; left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li{
+    position: relative;
+    float: left;
+    width: 11vw;
+    height: 16vw;
+    box-sizing: border-box;
+    margin: .5vw 0 1.5vw 2vw;
+    border: .15vw solid rgb(179, 0, 185);
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li img{
+    width: 100%;
+    height: 100%;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .up{
+    position: absolute; right: -1.7vw; top: -1.7vw;
+    width: 3vw;
+    height: 3vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .up img{
+    width: 100%;
+    height: 100%;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .bottom{
+    position: absolute; bottom: 0; left: 0;
+    width: 100%;
+    height: 1.6vw;
+    background: rgba(15, 15, 15, 0.904);
+    border-top: .1vw solid rgb(119, 119, 119);
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .bottom .up_arms{
+    position: absolute; right: 0; bottom: 0;
+    width: 3.3vw;
+    height: 3.3vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .bottom .up_arms img{
+    width: 100%;
+    height : 100%
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .bottom .up_arms_att{
+    position: absolute; right: .2vw; bottom: 0;
+    width: 2.5vw;
+    height: 2.5vw;
+    line-height: 3vw;
+    color: rgb(194, 194, 194);
+    font-size: 1vw;
+    font-weight: bolder;
+    text-align: right;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .bottom .arms_bu,
+.single_warrior_panel .card_container .arms_container .material_pool ul li .bottom .arms_gong,
+.single_warrior_panel .card_container .arms_container .material_pool ul li .bottom .arms_qi{
+    position: absolute; right: .2vw; bottom: 0;
+    width: 2.5vw;
+    height: 2.5vw;
+    line-height: 3vw;
+    color: rgb(194, 194, 194);
+    font-size: 1vw;
+    font-weight: bolder;
+    text-align: right;
+    background-size: cover;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .level{
+    position: absolute; left: 0; bottom: 0;
+    width: 3vw;
+    padding: 0 0 0 .2vw;
+    text-align: left;
+    color: rgb(202, 202, 202);
+    font-size: 1vw;
+    line-height: 1.6vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .cost{
+    position: absolute; left: 3vw; bottom: 0;
+    width: 5vw;
+    text-align: center;
+    color: rgb(255, 246, 227);
+    line-height: 1.6vw;
+    font-size: 1vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .red_star{
+    position: absolute; right: 0; top: 0;
+    width: 6.3vw;
+    height: 2vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .red_star .red_list{
+    position: absolute;left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .red_star .red_list li{
+    position: relative;
+    width: 1.2vw;
+    height: 1.2vw;
+    font-size: 1vw;
+    color: yellow;
+    margin: .13vw 0 0 0;
+    border: 0 solid rgba(179, 0, 185, 0);
+    box-shadow: none;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .red_star .red_list li img{
+    width: 100%;
+    height: 100%;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .red_star .red_list .red{
+    color: rgb(241, 0, 0);
+    text-shadow: 0 0 .2vw red;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .camp{
+    position: absolute; left: 0; top: 0;
+    width: 2vw;
+    height: 2vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .camp img{
+    width: 2vw;
+    height: 2vw;
+}
+.single_warrior_panel .card_container .arms_container .material_pool ul li .name {
+    position: absolute; left: 0; top: 0;
+    padding: 3vw 0 0 0;
+    width: 2vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 1vw;
+    color: rgb(255, 244, 181);
+    background: linear-gradient(to bottom,black,black,rgba(0, 0, 0, 0));
+}
+
+
+
+.confirmToDedication{
+    position: absolute; left: 0; top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.726);
+}
+.confirmToDedication .center_box{
+    position: absolute; left: 50%; top: 50%;
+    width: 60vw;
+    height: 30vw;
+    margin: -15vw 0 0 -30vw;
+    animation: rotateX .2s ease-out 1;
+}
+.confirmToDedication .center_box .confirm_bg_img{
+    position: absolute; left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+}
+.confirmToDedication .center_box .topic{
+    position: absolute; left: 50%; top: -2vw;
+    width: 16vw;
+    height: 4vw;
+    text-align: center;
+    line-height: 4vw;
+    font-size: 3.4vw;
+    font-weight: bold;
+    color: rgb(66, 27, 0);
+    text-shadow: 0 0 10px white;
+    margin: 0 0 0 -8vw;
+}
+.confirmToDedication .center_box .confirm_btn,.confirmToDedication .center_box .cancel_btn{
+    position: absolute; left: 50%; top: 22vw;
+    width: 16vw;
+    height: 4.5vw;
+    border-radius: .5vw;
+    text-align: center;
+    line-height: 4.5vw;
+    color: white;
+    font-size: 1.5vw;
+    background: darkred;
+    margin: 0 0 0 -20vw;
+}
+.confirmToDedication .center_box .cancel_btn{
+    margin:  0 0 0 4vw;
+    background: rgb(139, 102, 0);
+}
+.confirmToDedication .center_box .msg{
+    position: absolute; left: 50%; top : 50%;
+    transform : translate(-50%,-50%);
+    width: 30vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 1.2vw;
+    color: rgb(66, 27, 0);
+    font-weight: bold;
+}
