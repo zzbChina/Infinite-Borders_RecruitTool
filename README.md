@@ -1,5 +1,5 @@
 # Infinite Borders Recruit Tool
-This is a simulator about sb. In this simulator, you can simulate and extract any military general in sb. Yes, there are many places in this program
+This is a simulator about Infinite Borders. In this simulator, you can simulate and extract any military general in Infinite Borders. There are still many defects in this program, but I will continue to improve it
 
 ### Project setup
 ```
