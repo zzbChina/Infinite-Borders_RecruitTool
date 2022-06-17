@@ -1,6 +1,7 @@
+# Infinite Borders Recruit Tool
+This is a simulator about sb. In this simulator, you can simulate and extract any military general in sb. Yes, there are many places in this program
 
-
-## Project setup
+### Project setup
 ```
 npm install
 ```
